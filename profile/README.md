@@ -7,21 +7,13 @@
 
 Our aim is to advance **evidence-based, data-rich and digitally empowered philanthropy**.
 
-| | |
-|---|---|
-| 🔬 **Research** | Reproducible pipelines for collecting, structuring and measuring philanthropic text and data. |
-| 🤝 **Practice** | Working tools that foundations and nonprofits can adapt to their own grantmaking, evaluation and reporting. |
-| 🎓 **Learning** | Teaching cases and notebooks that open in Google Colab and run with nothing to install. |
+| 🔬 Research | 🤝 Practice | 🎓 Learning |
+|---|---|---|
+| Reproducible pipelines for collecting, structuring and measuring philanthropic text and data. | Working tools that foundations and nonprofits can adapt to their own grantmaking, evaluation and reporting. | Teaching cases and notebooks that open in Google Colab and run with nothing to install. |
 
 ## Tools
 
 Each tool can be used on its own. Some also link up: the campaign data gathered with **data_collection** feeds both **docling** and **RAG**.
-
-```mermaid
-flowchart LR
-    A["Collect<br/><b>data_collection</b>"] --> B["Structure<br/><b>docling</b>"]
-    A --> C["Retrieve & ask<br/><b>RAG</b>"]
-```
 
 | Stage | Repository | What it does | Start here |
 |---|---|---|---|
